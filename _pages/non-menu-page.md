@@ -1,16 +1,10 @@
 ---
-permalink: /non-menu-page/
-title: "Page not in menu"
+permalink: /about/
+title: "About Me"
 author_profile: true
-redirect_from: 
-  - "/nmp/"
-  - "/nmp.html"
 ---
+I'm a graduate student in Instructional Technology and Design at UNC Greensboro, interested in how technology, research, and creative practice can support meaningful learning.
 
-This is a page not in the menu. You can use markdown in this page.
+My interests include instructional design, learning sciences, creative technology, music, and educational equity. I'm especially interested in making learning and technology more accessible, collaborative, and responsive to the people using them.
 
-Heading 1
-======
-
-Heading 2
-======
+This website brings together selected projects, academic work, and creative explorations as I continue developing my skills and professional interests.
