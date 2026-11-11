@@ -12,15 +12,12 @@ main:
   # - title: "Publications"
   #   url: /publications/
 
-  - title: "Home"
-     url: /
-
+ - title: "Home"
+    url: /
   - title: "About Me"
     url: /about/
-
   - title: "Portfolio"
     url: /portfolio/
-
   - title: "Resume"
     url: /cv/
 
