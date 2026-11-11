@@ -93,3 +93,26 @@ a:hover {
   color: #233F5B;
 }
 
+
+/* Portfolio typography */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+body,
+input,
+select,
+textarea,
+button {
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.author__name,
+.page__title {
+  font-family: 'DM Sans', sans-serif;
+}
+
