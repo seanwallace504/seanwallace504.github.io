@@ -50,9 +50,18 @@
 }
 
 
+
 /* Apply portfolio colors */
-body {
+html,
+body,
+#main,
+.initial-content,
+.page,
+.archive {
   background-color: #F2F5F6;
+}
+
+body {
   color: #233F5B;
 }
 
@@ -92,6 +101,7 @@ a:hover {
 .author__bio {
   color: #233F5B;
 }
+
 
 
 /* Portfolio typography */
