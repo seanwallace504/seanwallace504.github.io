@@ -48,3 +48,48 @@
   --portfolio-offwhite: #F2F5F6;
   --portfolio-amber: #D49A62;
 }
+
+
+/* Apply portfolio colors */
+body {
+  background-color: #F2F5F6;
+  color: #233F5B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #233F5B;
+}
+
+a,
+a:visited {
+  color: #356B7A;
+}
+
+a:hover {
+  color: #D49A62;
+}
+
+.masthead,
+.greedy-nav {
+  background-color: #F2F5F6;
+}
+
+.greedy-nav a,
+.greedy-nav a:visited {
+  color: #233F5B;
+}
+
+.page__footer {
+  background-color: #233F5B;
+  color: #F2F5F6;
+}
+
+.page__footer a {
+  color: #C5D5DE;
+}
+
+.author__name,
+.author__bio {
+  color: #233F5B;
+}
+
