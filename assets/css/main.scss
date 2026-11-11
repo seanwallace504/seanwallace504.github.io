@@ -109,6 +109,16 @@ a:hover {
   background: #F2F5F6;
 }
 
+/* Unify header and navigation backgrounds */
+#site-nav,
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav {
+  background-color: #F2F5F6 !important;
+}
+
+
 
 
 
