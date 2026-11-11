@@ -142,4 +142,7 @@ h6,
 .page__title {
   font-family: 'DM Sans', sans-serif;
 }
-
+/* Keep short pages tall enough to push the footer down */
+#main {
+  min-height: 70vh;
+}
