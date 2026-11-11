@@ -51,45 +51,64 @@
 
 
 
-/* Apply portfolio colors */
+
+/* Portfolio colors, compatible with light and dark modes */
+:root {
+  --global-bg-color: #F2F5F6;
+  --global-text-color: #233F5B;
+  --global-text-color-light: #6F9EAA;
+  --global-link-color: #356B7A;
+  --global-link-color-hover: #D49A62;
+  --global-link-color-visited: #356B7A;
+  --global-masthead-link-color: #233F5B;
+  --global-masthead-link-color-hover: #D49A62;
+  --global-footer-bg-color: #233F5B;
+  --global-border-color: #C5D5DE;
+}
+
+/* Use theme colors throughout the page */
 html,
 body,
 #main,
 .initial-content,
 .page,
 .archive {
-  background-color: #F2F5F6;
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
 }
 
-body {
-  color: #233F5B;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #233F5B;
+body,
+h1, h2, h3, h4, h5, h6,
+.author__name,
+.author__bio {
+  color: var(--global-text-color);
 }
 
 a,
 a:visited {
-  color: #356B7A;
+  color: var(--global-link-color);
 }
 
 a:hover {
-  color: #D49A62;
+  color: var(--global-link-color-hover);
 }
 
 .masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.masthead__menu-item,
+#site-nav,
 .greedy-nav {
-  background-color: #F2F5F6;
+  background-color: var(--global-bg-color);
 }
 
 .greedy-nav a,
 .greedy-nav a:visited {
-  color: #233F5B;
+  color: var(--global-masthead-link-color);
 }
 
 .page__footer {
-  background-color: #233F5B;
+  background-color: var(--global-footer-bg-color);
   color: #F2F5F6;
 }
 
@@ -97,17 +116,6 @@ a:hover {
   color: #C5D5DE;
 }
 
-.author__name,
-.author__bio {
-  color: #233F5B;
-}
-
-/* Match the header background to the page */
-.masthead,
-.masthead__inner-wrap,
-.greedy-nav {
-  background: #F2F5F6;
-}
 
 /* Unify header and navigation backgrounds */
 #site-nav,
