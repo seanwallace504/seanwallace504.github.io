@@ -2,8 +2,6 @@
 permalink: /about/
 title: "About Me"
 author_profile: true
-redirect_from: 
-  - /about.html
 ---
 
 I'm a graduate student in Instructional Technology and Design at UNC Greensboro, interested in how technology, research, and creative practice can support meaningful learning.
