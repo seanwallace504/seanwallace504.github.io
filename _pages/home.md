@@ -1,6 +1,6 @@
 ---
-permalink: /about/
-title: "About Me"
+permalink: /
+title: "Home"
 author_profile: true
 ---
 I'm a graduate student in Instructional Technology and Design at UNC Greensboro, interested in how technology, research, and creative practice can support meaningful learning.
