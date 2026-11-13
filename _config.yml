@@ -24,7 +24,7 @@ repository               : "seanwallace504/seanwallace504.github.io"
 author:
   # Biographic information
   avatar           : "Portfolio Profile.png"
-  name             : "Sean Manuel Wallace"
+  name             : "Sean Wallace"
   pronouns         : # example: "she/her"  
   bio              : "Instructional Design · Research · Creative Technology"
   location         : "Asheville, NC"
@@ -96,7 +96,7 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
